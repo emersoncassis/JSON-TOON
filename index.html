@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conversor JSON → TOON</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="main-wrapper">
+        <div class="container">
+            <header>
+                <h1>Conversor JSON <span class="arrow">→</span> TOON</h1>
+                <p class="subtitle">Transforme seus dados com precisão e estilo.</p>
+            </header>
+
+            <div class="editor-section">
+                <div class="input-group">
+                    <label for="jsonInput">Entrada JSON</label>
+                    <textarea id="jsonInput" placeholder='{"exemplo": "cole seu json aqui"}'
+                        spellcheck="false"></textarea>
+                </div>
+
+                <div class="controls">
+                    <div class="button-group">
+                        <button id="convertBtn" class="btn"><span class="icon">⚡</span> Converter</button>
+                        <button id="copyBtn" class="btn"><span class="icon">📋</span> Copiar</button>
+                        <button id="clearBtn" class="btn"><span class="icon">🗑️</span> Limpar</button>
+                    </div>
+                </div>
+
+                <div class="output-group">
+                    <label for="toonOutput">Saída TOON</label>
+                    <textarea id="toonOutput" placeholder="Resultado da conversão..." readonly
+                        spellcheck="false"></textarea>
+                </div>
+            </div>
+
+            <div class="diff-section">
+                <h2>Análise de Tokens</h2>
+                <div class="stats-container" id="statsContainer" style="display:none;">
+                    <div class="donut-wrapper">
+                        <div class="donut json-donut" id="jsonDonut">
+                            <div class="donut-inner">
+                                <div class="chart-count" id="jsonCountCircle">0</div>
+                                <div class="chart-label-small">JSON</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reduction-display">
+                        <div class="stat-value" id="reductionValue">0%</div>
+                        <div class="stat-label">Redução</div>
+                    </div>
+                    <div class="donut-wrapper">
+                        <div class="donut toon-donut" id="toonDonut">
+                            <div class="donut-inner">
+                                <div class="chart-count" id="toonCountCircle">0</div>
+                                <div class="chart-label-small">TOON</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="statusMessage" class="status-bar"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
