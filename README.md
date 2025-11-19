@@ -18,6 +18,15 @@
 
 O **JSON → TOON Converter** é uma aplicação focada na transformação precisa de estruturas de dados JSON para a notação TOON (Tabular Object Oriented Notation). O projeto prioriza a integridade dos dados, validação robusta de entrada e análise performática de tokens.
 
+## 🎬 Demonstração
+
+### Interface Principal
+![Interface](docs/images/interface.png)
+
+### Análise de Tokens
+![Donuts](docs/images/donuts.png)
+
+
 ## ⚙️ Funcionalidades Técnicas
 
 ### 1. Conversão Universal de Dados
@@ -356,7 +365,9 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ## 👨‍💻 Autor
 
-Desenvolvido com ❤️ por [Seu Nome](https://github.com/seu-usuario)
+Desenvolvido com ❤️ por [Emerson Cassis](https://github.com/emersoncassis)
+
+Fork do projeto: [toon-format/toon](https://github.com/toon-format/toon)
 
 ---
 <div align="center">
