@@ -430,28 +430,14 @@ function countTokens(str) {
 | **Mobile Score** | 95/100 | ✅ Otimizado |
 | **SEO Ready** | Sim | ✅ Indexável |
 
-### 🎯 Comparação: Antes vs Depois
-
-| Aspecto | Antes | Depois |
-|---------|-------|--------|
-| **Validação JSON** | ❌ Nenhuma | ✅ Completa com alertas |
-| **Gráficos** | ❌ SVG pesado | ✅ CSS puro (conic-gradient) |
-| **Redução %** | ⚠️ Podia ser negativa | ✅ Sempre ≥ 0% |
-| **Performance** | ⚠️ ~30fps | ✅ 60fps constantes |
-| **Responsividade** | ❌ Desktop only | ✅ Mobile-first |
-| **Acessibilidade** | ⚠️ Básica | ✅ WCAG AA |
-| **Código** | ⚠️ Duplicado | ✅ DRY e modular |
-| **Tamanho** | ⚠️ ~25KB | ✅ ~15KB |
-
-
 ## 📄 Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ## 👨‍💻 Autor
 
-Desenvolvido com ❤️ por [Seu Nome](https://github.com/seu-usuario)
-
+Desenvolvido com ❤️ por [Seu Nome](https://github.com/emersoncassis)
+Fork: https://github.com/toon-format/toon
 ---
 
 <div align="center">
